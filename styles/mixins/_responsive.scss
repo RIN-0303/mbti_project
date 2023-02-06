@@ -1,0 +1,17 @@
+@if ($grid-breakpoints == 'M') {
+  @media screen and (max-width: $sm-breakpoint) {
+    @content;
+  }
+}
+
+@if ($grid-breakpoints == 'T') {
+  @media screen and (max-width: $md-breakpoint) {
+    @content;
+  }
+}
+
+@if ($grid-breakpoints == 'D') {
+  @media screen and (max-width: $lg-breakpoint) {
+    @content;
+  }
+}
